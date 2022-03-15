@@ -1,10 +1,10 @@
 package com.prolificinteractive.materialcalendarview;
 
-import android.support.annotation.NonNull;
 import org.threeten.bp.DayOfWeek;
 import org.threeten.bp.LocalDate;
 import org.threeten.bp.temporal.ChronoUnit;
 import org.threeten.bp.temporal.WeekFields;
+import androidx.annotation.NonNull;
 
 public class WeekPagerAdapter extends CalendarPagerAdapter<WeekView> {
 
